@@ -3,17 +3,20 @@
     display: grid;
     box-sizing: border-box;
     margin: 0 auto;
+    
   }
   header {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
+    width: 100%;
   }
   ul li a {
-    padding: 10px 20px;
+    padding: 1rem 2rem;
     text-transform: uppercase;
     text-decoration: none;
     color: #fffcf6;
     font-style: normal;
+    margin: 1.3rem;
   }
   .menustyle {
     display: flex;
@@ -22,11 +25,11 @@
   }
   .menutext {
     color: #fffcf6;
-    margin: 16px;
+    margin: 1rem;
   }
   .phone {
     color: #fffcf6;
-    margin: 16px;
+    margin: 1rem;
   }
   .heroscreen {
     background-color: #1b3b36;
@@ -36,13 +39,13 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
-    margin-top: 50px;
+    margin-top: 3rem;
   }
   .bank,
   .hotel {
     grid-column: 1/3;
     grid-row: 1/2;
-    font-size: 200px;
+    font-size: 10rem;
   }
   .bank {
     color: #fffcf6;
@@ -55,108 +58,112 @@
   .bankhotel {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    width: 880px;
-    height: 200px;
-    margin-left: 20px;
+    width: 15rem;
+    height: 5rem;
+    margin-left: 2rem;
   }
   .choose {
     grid-column: 1/2;
     grid-row: 2/3;
     color: #fcd043;
-    width: 701px;
-    height: 31px;
-    font-size: 26px;
-    margin-left: 20px;
+    width: 45rem;
+    height: 2rem;
+    font-size: 1.5rem;
+    margin-left: 2rem;
     text-transform: uppercase;
+    margin-top: 2rem;
   }
   .since {
     grid-column: 2/3;
     grid-row: 1/2;
     color: #fffcf6;
-    font-size: 22px;
+    font-size: 1.5rem;
     border-radius: 50px 50px 50px 50px;
     border: 1px solid #fffcf6;
-    width: 249px;
-    height: 70px;
+    width: 13rem;
+    height: 4rem;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: 300px;
-    margin-top: 70px;
+    margin-left: 5rem;
+    margin-top: 4rem;
   }
   .luxurious {
     grid-row: 2/3;
     grid-column: 2/3;
     color: #fffcf6;
-    font-size: 18px;
-    width: 350px;
-    height: 84px;
-    margin-left: 300px;
+    font-size: 1.2rem;
+    width: 13rem;
+    height: 4rem;
+    margin-left: 5rem;
   }
   .button {
-    grid-column: 4/5;
+    grid-column: 3/4;
     grid-row: 1/2;
     margin-top: 70px;
     width: 80px;
     height: 80px;
-    margin-left: 70px;
+    margin-right: 30%;
   }
   .labels {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
-    width: 1859px;
-    height: 76px;
+    width: 100%;
+    height: 4rem;
   }
   .phone2 {
     grid-column: 1/2;
     grid-row: 1/2;
-    width: 218px;
-    height: 31px;
+    width: 15rem;
+    height: 2rem;
     color: #fcd043;
-    margin-left: 20px;
-    font-size: 26px;
-    margin-top: 40px;
+    margin-left: 2rem;
+    font-size: 1.7rem;
+    margin-top: 2rem;
   }
   .adress {
     grid-column: 1/2;
     grid-row: 1/2;
-    width: 403px;
-    height: 31px;
+    width: 25rem;
+    height: 2rem;
     color: #fffcf6;
-    margin-left: 20px;
-    font-size: 26px;
-    margin-top: 70px;
+    margin-left: 2rem;
+    font-size: 1.7rem;
+    margin-top: 4rem;
   }
   .art {
-    grid-column: 4/5;
+    grid-column: 2/3;
     grid-row: 1/2;
-    width: 251px;
-    height: 62px;
+    width: 20rem;
+    height: 3rem;
     color: #fffcf6;
-    margin-left: 1242px;
-    font-size: 26px;
+    margin-left: 47rem;
+    font-size: 1.7rem;
     word-break: break-all;
     text-transform: uppercase;
-    margin-top: 40px;
+    margin-top: 2rem;
   }
   .art2 {
-    margin-left: 155px;
+    margin-left: 10rem;
     text-transform: uppercase;
   }
   .formimage {
     display: grid;
     grid-template-columns: 1fr 1fr 3fr;
     position: relative;
+    width: 93%;
+   height: 10%;
+   margin-left: 1rem;
   }
   .form {
-    grid-column: 3/4;
-  }
+    grid-column: 2/3;
+margin-left: 18.4rem;  }
   .heroimage {
     grid-column: 1/4;
   }
   .about {
-    margin-top: 150px;
+    margin-top: 5rem;
     display: grid;
     grid-template-columns: 2fr 2fr 1fr;
     grid-template-rows: 1fr 1fr;
@@ -164,63 +171,59 @@
   .imgabout {
     grid-column: 1/2;
     grid-row: 1/3;
-    margin-top: 150px;
+    margin-top: 9rem;
+    width: 80%;
   }
   .aboutus {
     grid-column: 2/3;
     grid-row: 1/2;
-    width: 486px;
-    height: 260px;
-    font-size: 150px;
+    width: 30rem;
+    height: 10rem;
+    font-size: 8rem;
     display: flex;
     flex-direction: column;
     align-items: flex-end;
-    margin-top: 270px;
-  }
+    margin-top: 18rem;
+   margin-right: 10rem;
+}
 
   .highquality {
     grid-column: 2/3;
     grid-row: 2/3;
     font-size: 50px;
-    width: 273px;
-    height: 60px;
-    margin-top: 240px;
-    margin-left: 100px;
+    width: 20rem;
+    height: 4rem;
+    margin-top: 16rem;
+    margin-left: 1rem;
     color: #fffcf6;
   }
   .textaboutus {
     grid-column: 2/3;
     grid-row: 2/3;
-    margin-top: 360px;
-    margin-left: 100px;
-    width: 443px;
-    height: 140px;
+    margin-top: 22rem;
+    margin-left: 1rem;
+    width: 30rem;
+    height: 2rem;
     color: #fffcf6;
   }
   .imgabout2 {
-    grid-column: 3/4;
+    grid-column: 2/3;
     grid-row: 1/2;
-    width: 314px;
-    height: 414px;
-    margin-top: 150px;
+    width: 50%;
+    margin-top: 9rem;
+    margin-left: 35rem;
+
   }
   .labelloft {
     grid-column: 2/3;
     grid-row: 1/2;
-    margin-left: 780px;
-    margin-top: 25px;
+    margin-left: 27rem;
+    margin-top: 1rem;
   }
-  .buttonabout {
-    grid-column: 3/4;
-    grid-row: 2/3;
-    width: 200px;
-    height: 200px;
-    margin-left: 15px;
-    margin-top: 230px;
-  }
+    
 .bigcontainer{
-    width: 1920px;
-    height: 5613px;
+    width: 100%;
+    height: 350.813rem;
     box-sizing: border-box;
 }
   .room{
@@ -232,188 +235,192 @@
   .roomstext{
     grid-column: 1/3;
     grid-row: 1/2;
-    width: 1036px;
-    height: 260px;
-    font-size: 150px;
-    margin-top: 150px;
-    margin-left: 20px;
+    width: 64.75rem;
+    height: 16.25rem;
+    font-size: 6.5rem;
+    margin-top: 4rem;
+    margin-left: 2rem;
     color: #1b3b36;
   }
   .roomtext{
-    grid-column: 3/4;
+    grid-column: 2/3;
     grid-row: 1/2;
-    width: 260px;
-    height: 93px;
-    font-size: 26px;
-    margin-left: 470px;
-    margin-top: 210px;
+    width: 15rem;
+    height: 4rem;
+    font-size: 1.5rem;
+    margin-left: 50rem;
+    margin-top: 10rem;
     color: #1b3b36;
   }
   .smallimg{
     grid-column: 1/2;
     grid-row: 2/3;
-    width: 285px;
-    height: 339px;
-    margin-left: 20px;
-    margin-top: 300px;
+    width: 70%;
+    height: 23%;
+    margin-left: 2rem;
+    margin-top: 15rem;
   }
   .bigimg{
-    grid-column: 3/4;
+    grid-column: 2/3;
     grid-row: 2/4;
-    width: 757px;
-    height: 1000px;
-    margin-right: 20px;
-    margin-top: 150px;
+    width: 30%;
+    margin-left: 47rem;
+    margin-top: 9rem;
   }
   .superior{
     grid-column: 2/3;
     grid-row: 3/4;
-    width: 312px;
-    height: 61px;
-    font-size: 50px;
-    margin-top: 80px;
+    width: 20rem;
+    height: 3rem;
+    font-size: 3rem;
+    margin-top: 5.5rem;
     color: #1b3b36;
-    margin-left: 100px;
+    margin-left: 6.2rem;
   }
   .superiortext{
     grid-column: 2/3;
     grid-row: 3/4;
-    width: 442px;
-    height: 168px;
-    font-size: 18px;
-    margin-top: 150px;
+    width: 30rem;
+    height: 6rem;
+    font-size: 1.2rem;
+    margin-top: 9rem;
     color: #1b3b36;
-    margin-left: 100px;
+    margin-left: 6.2rem;
   }
   .cifers{
     grid-column: 2/3;
     grid-row: 3/4;
-    margin-top: 300px;
-    width: 118px;
-    height: 26px;
-    font-size: 22px;
-    margin-left: 100px;
+    margin-top: 18rem;
+    width: 4rem;
+    height: 2rem;
+    font-size: 1.3rem;
+    margin-left: 6.5rem;
   }
   .since2{
     color: black;
-    font-size: 22px;
+    font-size: 1.5rem;
     border-radius: 50px 50px 50px 50px;
     border: 1px solid black;
-    width: 249px;
-    height: 70px;
+    width: 15rem;
+    height: 4rem;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 300px;
-    margin-left: 100px;
+    margin-top: 19rem;
+    margin-left: 29rem;
+    grid-column: 2/3;
+    grid-row: 1/2;
   }
   .button3{
     grid-column: 1/2;
     grid-row: 3/4;
-    margin-left: 20px;
-    margin-top: 160px;
+    margin-left: 2rem;
+    margin-top: 9rem;
   }
   .facilities{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 2fr;
     
-    margin-top: 150px;
-    height: 3000px;
+    margin-top: 10rem;
+    height: 187.5rem;
     box-sizing: border-box;
     clear: both;
   }
   .name{
-    grid-column: 2/3;
+    grid-column: 1/2;
     grid-row: 1/2;
-    width: 657px;
-    height: 390px;
+    width: 40rem;
+    height: 35rem;
     color: #1b3b36;
+    margin-left: 20rem;
   }
   .ourfaci{
     grid-column: 2/3;
     grid-row: 1/2;
-    font-size: 150px;
-    margin-top: 50px;
+    font-size: 9rem;
+    margin-top: 3rem;
   }
   .lities{
     grid-column: 2/3;
     grid-row: 1/2;
-    font-size: 150px;
-    margin-left: 500px;  
+    font-size: 9rem;
+    margin-left: 25rem;  
   }
   .star2{
     grid-column: 2/3;
     grid-row: 1/2;
-    margin-left: 200px;
+    margin-left: 15rem;
   }
   .congress{
     grid-column: 1/2;
     grid-row: 1/2;
-    width: 251px;
-    height: 62px;
-    font-size: 26px;
-    margin-left: 20px;
-    margin-top: 90px;
+    width: 15rem;
+    height: 3rem;
+    font-size: 1.5rem;
+    margin-left: 2rem;
+    margin-top: 6rem;
     color: #1b3b36;
   }
   .factext{
     grid-column: 2/3;
     grid-row: 2/3;
-    width: 350px;
-    height: 140px;
-    font-size: 18;
-    margin-top: 200px;
+    width: 20rem;
+    height: 10rem;
+    font-size: 1.2rem;
+    margin-top: 10rem;
     color: #1b3b36;
   }
   .facimg1{
     grid-column: 1/2;
     grid-row: 2/3;
-    width: 443px;
-    height: 86px;
-    margin-left: 20px;
+    width: 70%;
+    height: 15%;
+    margin-left: 2rem;
 
   }
   .facimg2{
-    grid-column: 3/4;
+    grid-column: 2/3;
     grid-row: 1/2;
-    width: 443px;
-    height: 286px;
-    margin-left: 160px;
-    margin-top: 150px;
+    width: 70%;
+    height: 15%;
+    margin-left: 10rem;
+    margin-top: 9rem;
   }
   
   .facimg3{
-    grid-column: 3/4;
-    grid-row: 3/4;
-    width: 600px;
-    height: 850px;
-  }
-  .factext2{
-    width: 442px;
-    height: 658px;
     grid-column: 2/3;
     grid-row: 3/4;
-    margin-top: 40px;
-    font-size: 18px;
+    width: 70%;
+    height: 40%;
+    margin-left: 10rem;
+  }
+  .factext2{
+    width: 30rem;
+    height: 5rem;
+    grid-column: 2/3;
+    grid-row: 3/4;
+    margin-top: 4rem;
+    font-size: 1.2rem;
     color: #1b3b36;
   }
   .ice{
-    margin-top: 350px;
-    width: 394px;
-    height: 160px;
-    font-size: 80px;
+    margin-top: 20rem;
+    width: 5rem;
+    height: 8rem;
+    font-size: 5rem;
     color: #1b3b36;
 }
 .cifer01{
-    font-size: 80px;
+    font-size: 5rem;
     color: #1b3b36;
     }
     .facbutton{
         grid-column: 1/2;
         grid-row: 3/4;
-        width: 170px;
-        height: 170px;
+        width: 4rem;
+        height: 4rem;
+        margin-left: 2rem;
     }
     .container3{
    
@@ -421,76 +428,86 @@
     display: grid;
     grid-template-columns: 1fr 1fr 2fr 1fr;
     grid-template-rows: 1fr 1fr;
-    margin-top: 100px;
+    margin-top: 1rem;
 }
 
 .hallimg{
-    width: 284px;
-    height: 284px;
+    width: 20%;
+    height: 40%;
     grid-column: 1/2;
-    margin-left: 20px;
+    margin-left: 2rem;
     grid-row: 1/2;
 }
 .cifers02{
-    width: 99px;
-    height: 80px;
+    width: 6rem;
+    height: 5rem;
     grid-column: 2/3;
-    font-size: 80px;
+    font-size: 4rem;
     grid-row: 1/2;
-    margin-left: 150px;
-    margin-top: 120px;
+    margin-left: 6rem;
+    margin-top: 8.5rem;
     color: #1b3b36;
 }
 .halltext{
-    width: 586px;
-    height: 80px;
-    font-size: 80px;
+    width: 40rem;
+    height: 5rem;
+    font-size: 3.5rem;
     grid-column: 3/4;
     grid-row: 1/2;
-    margin-left: 150px;
-    margin-top: 120px;
+    margin-top: 9rem;
+    margin-right: 8rem;
     color: #1b3b36;
 }
 .wineimg{
-    width: 284px;
-    height: 284px; 
+    width: 20%;
+    height: 40%; 
     grid-column: 1/2;
-    margin-left: 20px;
+    margin-left: 2rem;
     grid-row: 2/3;
-    margin-top: 10px;
+    margin-top: 5.5rem;
 }
 .cifers03{
-    width: 99px;
-    height: 80px;
+    width: 6rem;
+    height: 5rem;
     grid-column: 2/3;
-    font-size: 80px;
+    font-size: 4rem;
     grid-row: 2/3;
-    margin-left: 150px;
-    margin-top: 120px;
+    margin-left: 6rem;
+    margin-top: 8.5rem;
     color: #1b3b36;
 }
 .winetext{
-    width: 704px;
-    height: 80px;
-    font-size: 80px;
+    width: 40rem;
+    height: 5rem;
+    font-size: 3.5rem;
     grid-column: 3/4;
     grid-row: 2/3;
-    margin-left: 150px;
-    margin-top: 120px;
+    margin-top: 9rem;
+    margin-right: 8rem;
     color: #1b3b36;
 }
 .arrow-1{
-    width: 88.81px;
-    height: 40px;
+    width: 5rem;
+    height: 2rem;
     grid-column: 4/5;
     grid-row: 1/2;
-    margin-top: 150px;
+    margin-top: 9rem;
 }
 .arrow-2{
-    width: 88.81px;
-    height: 40px;
+    width: 5rem;
+    height: 2rem;
     grid-column: 4/5;
     grid-row: 2/3;
-    margin-top: 150px;
+    margin-top: 9rem;
 }
 
+@media screen and (max-width:767px) {
+  .body{
+    width: 100%;
+  }
+}
+@media screen and (min-width: 768px) and (max-width:1023) {
+  .body{
+    width: 100%;
+  }
+}
